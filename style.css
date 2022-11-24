@@ -1,0 +1,104 @@
+:root {
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url("images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    
+}
+
+.canvas{
+    display: none;
+}
+
+.canvas.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 30%;
+    border: 5px solid #113d8e;
+    border-radius: 30px;
+    background-color: #0d1836; 
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: 1500px;
+    }
+
+    .canvas.active {
+        margin-left: 20%;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    body {
+        background-size: 1500px;
+    }
+
+    .canvas.active {
+        margin-left: 50px;
+    }
+    
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    background-color: rgb(104, 221, 78);
+    border: 5px solid rgb(173, 245, 169);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.1s linear;
+    margin: 15px;
+}
+
+button:hover {
+    transform: scale(0.95);
+}
+
+.fishes {
+    color: #fff;
+    font-family: 'Leckerli One', cursive;
+    font-size: 5rem;
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px;
+}
+
+img {
+    width: 130px;
+    height: auto;
+    margin:2px;
+}
+
