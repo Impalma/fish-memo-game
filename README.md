@@ -27,6 +27,6 @@ https://user-images.githubusercontent.com/62899618/203878481-babf9f91-e76b-40fb-
 
 
 
-If you wanna to check out, click link below ⬇️
+If you want to check out, click link below ⬇️
 ###
 https://impalma.github.io/fish-memo-game/
