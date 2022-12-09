@@ -1,4 +1,4 @@
-# Fish memo game :fish:
+# The Fish memo game :fish:
 
 ![](https://img.shields.io/badge/-html-blue?style=for-the-badge) ![](https://img.shields.io/badge/-css-blue?style=for-the-badge) ![](https://img.shields.io/badge/-JavaScript-blue?style=for-the-badge)
 
